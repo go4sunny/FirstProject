@@ -19,6 +19,6 @@ from django.conf.urls import url
 from boards import views
 
 urlpatterns = [
-    path('homepage/', views.home, name = 'home'),
+    path('', views.home, name = 'home'),
     path('admin/', admin.site.urls)
 ]
