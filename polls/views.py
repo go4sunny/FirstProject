@@ -19,8 +19,6 @@ class IndexView(generic.ListView):
         )[:5]
 
         # return Question.objects.order_by('-pub_date')[:5]
-
-
 class DetailView(generic.DetailView):
     model = Question
     template_name = "polls/detail.html"
