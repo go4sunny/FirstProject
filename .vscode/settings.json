@@ -1,6 +1,7 @@
 {
     "git.ignoreLimitWarning": true,
-    "python.pythonPath": "d:\\Learning\\Django Projects\\FirstProject\\venv\\Scripts\\python.exe",
+    "python.pythonPath": "venv\\Scripts\\python.exe",
     "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "python.formatting.provider": "black"
 }
