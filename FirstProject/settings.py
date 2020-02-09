@@ -78,14 +78,16 @@ WSGI_APPLICATION = "FirstProject.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-if "postgres" in os.environ:
+if "aa1vdhgg61zv65z" in os.environ:
     DATABASES = {
         "default": {
             "ENGINE": "django.db.backends.postgresql_psycopg2",
-            "NAME": os.environ["postgres"],
-            "USER": os.environ["postgres"],
+            "NAME": os.environ["aa1vdhgg61zv65z"],
+            "USER": os.environ["manna"],
             "PASSWORD": os.environ["manna123"],
-            "HOST": os.environ["firstproject.cdwr8qqoehkx.us-east-1.rds.amazonaws.com"],
+            "HOST": os.environ[
+                "aa1vdhgg61zv65z.cdwr8qqoehkx.us-east-1.rds.amazonaws.com"
+            ],
             "PORT": os.environ["5432"],
         }
     }
