@@ -78,7 +78,7 @@ WSGI_APPLICATION = "FirstProject.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-if "firstproject" in os.environ:
+if "postgres" in os.environ:
     DATABASES = {
         "default": {
             "ENGINE": "django.db.backends.postgresql_psycopg2",
