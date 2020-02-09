@@ -82,7 +82,7 @@ if "firstproject" in os.environ:
     DATABASES = {
         "default": {
             "ENGINE": "django.db.backends.postgresql_psycopg2",
-            "NAME": os.environ["firstproject"],
+            "NAME": os.environ["postgres"],
             "USER": os.environ["postgres"],
             "PASSWORD": os.environ["manna123"],
             "HOST": os.environ["firstproject.cdwr8qqoehkx.us-east-1.rds.amazonaws.com"],
