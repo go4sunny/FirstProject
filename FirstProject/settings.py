@@ -85,8 +85,7 @@ if "firstproject" in os.environ:
             "NAME": os.environ["firstproject"],
             "USER": os.environ["postgres"],
             "PASSWORD": os.environ["manna123"],
-            "HOST": os.environ["firstproject.cdwr8qqoehkx.us-east-1.rds.amazonaws.com
-"],
+            "HOST": os.environ["firstproject.cdwr8qqoehkx.us-east-1.rds.amazonaws.com"],
             "PORT": os.environ["5432"],
         }
     }
